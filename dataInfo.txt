@@ -1,0 +1,1 @@
+O sistema interno de arquivo esta apontando para o local fisico.
