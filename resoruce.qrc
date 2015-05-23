@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>icons/x.png</file>
+        <file>icons/wrench-screwdriver.png</file>
+        <file>icons/window-system.png</file>
+        <file>icons/user.png</file>
+        <file>icons/star.png</file>
+        <file>icons/sign-ban.png</file>
+        <file>icons/shield-warning.png</file>
+        <file>icons/shield-error.png</file>
+        <file>icons/search.png</file>
+        <file>icons/ok.png</file>
+        <file>icons/notepad.png</file>
+        <file>icons/money.png</file>
+        <file>icons/mais.png</file>
+        <file>icons/lock.png</file>
+        <file>icons/light-bulb.png</file>
+        <file>icons/life-buoy.png</file>
+        <file>icons/enveloppe-alt.png</file>
+        <file>icons/computer.png</file>
+        <file>icons/calendar.png</file>
+        <file>icons/calendar-alt.png</file>
+        <file>icons/book.png</file>
+        <file>icons/exit.png</file>
+    </qresource>
+</RCC>

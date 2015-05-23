@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Cardapio</class>
+ <widget class="QMainWindow" name="Cardapio">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>517</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cardapio</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btnEntrada">
+      <property name="text">
+       <string>Entrada</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resoruce.qrc">
+        <normaloff>:/icones/icons/mais.png</normaloff>:/icones/icons/mais.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lnPlaca">
+      <property name="inputMask">
+       <string>AAA-9999</string>
+      </property>
+      <property name="placeholderText">
+       <string>XYZ-2015</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="btnBuscar">
+      <property name="text">
+       <string>Buscar</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resoruce.qrc">
+        <normaloff>:/icones/icons/search.png</normaloff>:/icones/icons/search.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="btnEntrega">
+      <property name="text">
+       <string>Entregar</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resoruce.qrc">
+        <normaloff>:/icones/icons/star.png</normaloff>:/icones/icons/star.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="btnSair">
+      <property name="text">
+       <string>Sair</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resoruce.qrc">
+        <normaloff>:/icones/icons/x.png</normaloff>:/icones/icons/x.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="5">
+     <widget class="QTreeWidget" name="treeWidget">
+      <column>
+       <property name="text">
+        <string>Placa</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Marca</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Modelo</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Cor</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Entrada</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>517</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOp_es">
+    <property name="title">
+     <string>Carros</string>
+    </property>
+    <addaction name="actionCadastrar_Carro"/>
+    <addaction name="actionListar_Carros"/>
+   </widget>
+   <widget class="QMenu" name="menuCaixa">
+    <property name="title">
+     <string>Patio</string>
+    </property>
+    <addaction name="actionListar"/>
+    <addaction name="actionGerenciar_Novo"/>
+    <addaction name="actionAbrir"/>
+   </widget>
+   <widget class="QMenu" name="menuCaixa_2">
+    <property name="title">
+     <string>Caixa</string>
+    </property>
+    <addaction name="actionGerenciar_Novo_2"/>
+    <addaction name="actionAbrir_Outro"/>
+   </widget>
+   <widget class="QMenu" name="menuConfigura_es">
+    <property name="title">
+     <string>Configurações</string>
+    </property>
+    <addaction name="actionAtivar"/>
+    <addaction name="actionAmbiente"/>
+   </widget>
+   <widget class="QMenu" name="menuSobre">
+    <property name="title">
+     <string>Sobre</string>
+    </property>
+    <addaction name="actionManual"/>
+    <addaction name="actionSobre"/>
+   </widget>
+   <addaction name="menuOp_es"/>
+   <addaction name="menuCaixa"/>
+   <addaction name="menuCaixa_2"/>
+   <addaction name="menuConfigura_es"/>
+   <addaction name="menuSobre"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCadastrar_Carro">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/mais.png</normaloff>:/icones/icons/mais.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cadastrar Carro</string>
+   </property>
+  </action>
+  <action name="actionListar_Carros">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/notepad.png</normaloff>:/icones/icons/notepad.png</iconset>
+   </property>
+   <property name="text">
+    <string>Listar Carros</string>
+   </property>
+  </action>
+  <action name="actionGerenciar_Novo">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/book.png</normaloff>:/icones/icons/book.png</iconset>
+   </property>
+   <property name="text">
+    <string>Gerenciar Novo</string>
+   </property>
+  </action>
+  <action name="actionAbrir">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/computer.png</normaloff>:/icones/icons/computer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionGerenciar_Novo_2">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/book.png</normaloff>:/icones/icons/book.png</iconset>
+   </property>
+   <property name="text">
+    <string>Gerenciar Novo</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Outro">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/computer.png</normaloff>:/icones/icons/computer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir Outro</string>
+   </property>
+  </action>
+  <action name="actionAtivar">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/lock.png</normaloff>:/icones/icons/lock.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ativar</string>
+   </property>
+  </action>
+  <action name="actionAmbiente">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/wrench-screwdriver.png</normaloff>:/icones/icons/wrench-screwdriver.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ambiente</string>
+   </property>
+  </action>
+  <action name="actionManual">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/light-bulb.png</normaloff>:/icones/icons/light-bulb.png</iconset>
+   </property>
+   <property name="text">
+    <string>Manual</string>
+   </property>
+  </action>
+  <action name="actionSobre">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/user.png</normaloff>:/icones/icons/user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="actionListar">
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/notepad.png</normaloff>:/icones/icons/notepad.png</iconset>
+   </property>
+   <property name="text">
+    <string>Listar</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resoruce.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnSair</sender>
+   <signal>clicked()</signal>
+   <receiver>Cardapio</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>70</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
