@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelecionaCarro</class>
+ <widget class="QDialog" name="SelecionaCarro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>345</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Soft - ESPARTA</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>641</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Placa</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Marca</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Modelo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cor</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>290</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecionado</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/star.png</normaloff>:/icones/icons/star.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>541</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Encontramos mais de um carro com a mesma placa, porfavor seleciona a baixo o 
+carro ao qualdeseja efetuar a operaçao:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>6</y>
+     <width>67</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resoruce.qrc">:/icones/icons/light-bulb.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resoruce.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ambiente</class>
+ <widget class="QDialog" name="Ambiente">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lnNomeLoja">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>201</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Esparta - Estacionamento</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>321</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Valores:</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QDoubleSpinBox" name="dsCarroInteira_2"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lblCarroGrande">
+      <property name="text">
+       <string>Carro Grande:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblCarro">
+      <property name="text">
+       <string>Carro:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDoubleSpinBox" name="dsCarroGrandeMeia"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDoubleSpinBox" name="dsVeiculoLongoMeia"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="lblMoto">
+      <property name="text">
+       <string>Moto:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lblVeiculoLongo">
+      <property name="text">
+       <string>Veiculos Longos:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QDoubleSpinBox" name="dsMotoMeia"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QDoubleSpinBox" name="dsMotoInteira"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QDoubleSpinBox" name="dsCarroInteira"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QDoubleSpinBox" name="dsCarroGrandeInteira"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QDoubleSpinBox" name="dsVeiculoLongoInteira"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QCheckBox" name="cbFull">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>221</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Iniciar em modo tela cheia</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNomeLoja">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome da Loja:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSair">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>360</y>
+     <width>99</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sair</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/x.png</normaloff>:/icones/icons/x.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSalvar">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>360</y>
+     <width>99</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salvar !</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/ok.png</normaloff>:/icones/icons/ok.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblMeia">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Meia</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblInteira">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>130</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Inteira</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resoruce.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnSair</sender>
+   <signal>clicked()</signal>
+   <receiver>Ambiente</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>100</x>
+     <y>392</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>19</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CadastroCarro</class>
+ <widget class="QDialog" name="CadastroCarro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>228</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Soft - ESPARTA</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>180</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salvar !</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/ok.png</normaloff>:/icones/icons/ok.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lnPlaca">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>113</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>8</number>
+   </property>
+   <property name="placeholderText">
+    <string>SPT-2015</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbEstado">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>60</y>
+     <width>91</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbCidade">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbCor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblPlaca">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Placa:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblCidade">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cidade:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblEstado">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>40</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Estado:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblCor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cor:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblMarca">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Marca:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblModelo">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>100</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modelo:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbMarca">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>120</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbModelo">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>120</y>
+     <width>151</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>180</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/sign-ban.png</normaloff>:/icones/icons/sign-ban.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>60</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/mais.png</normaloff>:/icones/icons/mais.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>120</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/mais.png</normaloff>:/icones/icons/mais.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/mais.png</normaloff>:/icones/icons/mais.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>60</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/mais.png</normaloff>:/icones/icons/mais.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>120</y>
+     <width>31</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resoruce.qrc">
+     <normaloff>:/icones/icons/mais.png</normaloff>:/icones/icons/mais.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resoruce.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>CadastroCarro</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>175</x>
+     <y>157</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>CadastroCarro</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>436</x>
+     <y>190</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
